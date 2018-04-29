@@ -19,7 +19,7 @@ function init() {
     }
   }
   
-  document.body.addEventListener('keyDown', function(e) {
+  document.body.addEventListener('keydown', function(e) {
     onKeyDownHandler(e)}, false);
     
 }
